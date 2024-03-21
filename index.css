@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  /* margin: auto; */
+  padding: 25px;
+  border-radius: 15px;
+}
+/* .doings{
+  position: relative;
+}
+.doings::before{
+  content: '';
+  bottom: 0;
+  width: 54%;
+  border: 1px solid yellow;
+  position: absolute;
+}
+
+.doings{
+  padding-bottom: 2px;
+} */
+
+.image {
+  width: 300px;
+  border-radius: 10px;
+}
+.img-container{
+  position: relative;
+}
+.img-container:hover::before{
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  content: url(./images/icon-view.svg);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-para{
+  font-weight: 600;
+}
+
+.head{
+  padding-top: 25px;
+  color: white;
+}
+
+.head:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.para {
+  color: hsl(215, 51%, 70%);
+  padding-top: 10px;
+}
+
+.left-right{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  letter-spacing: 0.02px;
+  justify-content: space-between;
+}
+
+.para1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.para2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1{
+  padding-right: 5px;
+  
+}
+
+.img2{
+  padding-right: 2px;
+}
+
+.d1{
+  color: hsl(178, 100%, 50%);
+}
+
+.d2{
+  color: hsl(215, 51%, 70%);
+}
+
+.line {
+  color: hsl(215, 32%, 27%);
+  width: 305px;
+  margin-bottom: 10px;
+  /* background-color: rgb(20,37,61); */
+  border: 1px solid;
+}
+
+.avatar{
+  width: 40px;
+  border: 2px white solid;
+  border-radius: 50%;
+  float: left;
+}
+
+span{
+  color: #fff;
+}
+
+.hove:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.color{
+  color: hsl(215, 51%, 70%);
+}
+
+.og{
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width= 1440px) {
+  
+}
+
+
+
+
